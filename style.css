@@ -49,6 +49,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* main */
 main {
     padding: 20px;
 
@@ -57,54 +58,60 @@ main {
 #employeeSection {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /* Center the cards horizontally */
+    justify-content: space-around;
+    background-color: #fcfcfc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .employee-card {
-    flex: 0 0 calc(33.33% - 20px);
-    /* Adjust width to fit three cards in a row */
+    flex: 1 0;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
+
 }
 
-/*abou styling*/
-/* h2 {
+.employee-card img {
+    margin-left: 30%;
+    height: 80px;
+    /* width: 80px; */
+
+}
+
+/*form styling*/
+h2 {
     color: #007bff;
-    
-}
-
-.per {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 form {
-    background-color: #fff;
+    background-color: #fcfcfc;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 input[type="text"],
 input[type="email"],
-textarea {
-    width: 100%;
+input,
+select {
+    width: 50%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 
 button {
     padding: 10px 20px;
@@ -119,7 +126,7 @@ button:hover {
     background-color: #0056b3;
 }
 
- */
+/* footer */
 footer {
     background-color: #333;
     color: #fff;

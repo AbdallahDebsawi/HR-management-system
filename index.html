@@ -24,8 +24,58 @@
     </header>
 
     <main>
+        <!-- from section  -->
+        <section>
+            <h2>Add New Employee</h2>
+            <!-- <fieldset> -->
+            <form id="formID">
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName"><br>
+
+                <label for="department">Department:</label><br>
+                <select id="department" name="department">
+                    <option value="administration">Administration</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="development">Development</option>
+                    <option value="finance">Finance</option>
+
+                </select>
+
+                <label for="level">Level:</label><br>
+                <select id="level" name="level">
+                    <option value="junior">Junior</option>
+                    <option value="midSenior">Mid-Senior</option>
+                    <option value="senior">Senior</option>
+                </select>
+                <label for="image">Image link:</label><br>
+                <input type="text" id="image" name="image"><br>
+
+                <button type="submit">Submit</button>
+
+
+            </form>
+            <!-- </fieldset> -->
+        </section>
+
         <!-- employee information -->
-        <section id="employeeSection"></section>
+        <h2>Employees</h2>
+
+        <section id="employeeSection">
+            <div id="administration">
+                <h2>Administration</h2>
+            </div>
+            <div id="marketing">
+                <h2>Marketing</h2>
+            </div>
+            <div id="development">
+                <h2>Development</h2>
+            </div>
+            <div id="finance">
+                <h2>Finance</h2>
+            </div>
+
+        </section>
+
     </main>
     <footer>
         <p>&copy; 2024 Debsawi's Website. All rights reserved.</p>
