@@ -66,7 +66,6 @@ main {
 }
 
 
-
 .employee-card {
     flex: 1 0;
     margin: 10px;
@@ -124,6 +123,22 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* table */
+table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    /* Light gray background */
 }
 
 /* footer */
